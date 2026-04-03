@@ -21,6 +21,22 @@
     },
     {
       "node_id": 0,
+      "node_type": "image",
+      "title": "Image",
+      "uuid": "1eca0693ddf44e7796604f8679c2ade2",
+      "x": 167.9012345679012,
+      "y": -159.25925925925924,
+      "width": 280.0,
+      "height": 220.0,
+      "z_value": -9.993000000000004,
+      "ports_visible": false,
+      "emoji": "\ud83d\ude0e",
+      "image_b64": "",
+      "caption": "Reginald",
+      "source_path": "C:\\Users\\thisg\\Desktop\\Reginalds Genocidic Marshmallows\\Reginald.png"
+    },
+    {
+      "node_id": 0,
       "node_type": "claude_response",
       "title": "Response",
       "uuid": "d83716e17c3c4321a82f675d6cbcdc6d",
@@ -115,5 +131,5 @@
     }
   ],
   "viewport": {},
-  "checksum": "b2c52e00694309f8"
+  "checksum": "ae53c90d52f3941b"
 }
