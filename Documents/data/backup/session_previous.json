@@ -1,0 +1,119 @@
+{
+  "version": "1.0",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "claude",
+      "title": "Absolutely without question.  next up, the text wrapper on the about nodes title\nused to be a one liner line edit and we changed it to multiline textedit recently\ninheriting from prettyedit as the template.  so now the text truncation strips and\nreplaces text in line 2-3-4 and onward once the character limit gets hit, lets just\nstrip the text wrapping to only take effect if the text is out of bounds with the\ntotal area of the node and its borders",
+      "uuid": "a15ca82afc044f879ecc7e33b3fb8fba",
+      "x": -318.0216954399631,
+      "y": 98.60015728569792,
+      "width": 898.4076687009996,
+      "height": 262.0,
+      "z_value": 10.0,
+      "ports_visible": false,
+      "emoji": "\ud83d\udc96",
+      "depth_front": true,
+      "folder_path": "C:\\Users\\thisg\\.claude\\projects\\C--Users-thisg-Desktop-Intricate",
+      "body_text": "\n\u203a good morning Claude, how are you doing?\n\n\n\nGood morning! I'm doing well, thanks for asking. Ready to help out with Intricate whenever you need. What are you working on t\noday?\n\n\n\u203a The about node text highlighter, the x,y coordinates when i edit the text in it, keeps getting offset below the text edit when i click to edit  it and i need your help to figure out why\n\nLet me look at the AboutNode and related code to understand the text editing and highlighting issue.\nNow let me check the Theme values for the offsets used in both the paint and edit rects.\nNow I see the problem. Here's what's happening:\n\n**Paint** (`paint_content`, line 167) uses `Theme.aboutFontVerticalOffset` which inherits from `nodeFontVerticalOffset` = **-8.0**\n\n**Editor** (`_edit_rect`, line 116) uses `Theme.aboutEditorVerticalOffset` which defaults to **0.0** and is never inherited from the node offset.\n\nSo the painted text is shifted 8px **up** (via the -8.0 offset), but when you click to edit, the editor appears at y=0 offset \u2014 8px **below** where the text was drawn. That's the mismatch.\n\nThe fix is to have `aboutEditorVerticalOffset` inherit from `aboutFontVerticalOffset` so they stay in sync by default:\nThe fix: after `aboutFontVerticalOffset` is resolved (including any settings override), set `aboutEditorVerticalOffset` to match it as the default, before the explicit `editor_vertical_offset` override check.\nThe root cause: the painted text uses `aboutFontVerticalOffset` (inherited from `nodeFontVerticalOffset` = -8.0, shifting text up), but the editor rect uses `aboutEditorVerticalOffset` which stayed at its default of 0.0 \u2014 never inheriting the same offset. So the editor always appeared 8px below the painted text.\n\nThe fix adds one line that syncs `aboutEditorVerticalOffset` to `aboutFontVerticalOffset` after both are resolved, while still allowing an explicit `editor_vertical_offset` in settings to override \nThe root cause: the painted text uses `aboutFontVerticalOffset` (inherited from `nodeFontVerticalOffset` = -8.0, shifting text up), but the editor rect uses `aboutEditorVerticalOffset` which stayed at its default of 0.0 \u2014 never inheriting the same offset. So the editor always appeared 8px below the painted text.\n\nThe fix adds one line that syncs `aboutEditorVerticalOffset` to `aboutFontVerticalOffset` after both are resolved, while still allowing an explicit `editor_vertical_offset` in settings to override it if needed.\nit if needed.\n\n\n\u203a excellent, thank you, good start, that puts it within bounds of reason, but there is still a slight offset in the form that the highlighter itself it taller than the font, it has extra space above the text so the text gets bumped lower on the node when its active\n\nThis zeroes out three sources of extra vertical space in the QTextEdit:\n- **`document().setDocumentMargin(0)`** \u2014 the default 4px margin Qt adds around the text content\n- **`setContentsMargins(0,0,0,0)`** \u2014 widget-level content margins\n- **`setViewportMargins(0,0,0,0)`** \u2014 the viewport's own padding\n\nThe text in the editor should now sit at exactly the same vertical position as the `drawText` call in `paint_content`, so activating the editor wo\nn't bump the text down.\n\n\n\u203a it still does though, I restarted the app to test it and such, with an about node that only has the letter A in it as the title text i can see that when i edit that text and drag over it, the selection highlighter is rouble the height of the letter, its most likely some specific for the chandler42 font, its very particular about how ot rasterizes, hence all the offset options in there, its far from a monospace font, should we add one more setting into settings.toml, something that lets me set the height of the text selection highlighter manuarlly and tweak it to the right value, then i can tell you where visually the right offset value is?\n\nLooks good. Here's what's been added:\n\n**Theme.py** \u2014 new attribute `aboutSelectionLineHeight` (default `0.0` = no override), loaded from `[node.about]` key `selection_line_height`.\n\n**PrettyEdit.py** \u2014 `_applyLineHeight()` applies a `FixedHeight` block format when the value is > 0. Called both at init and after `setPlainText()` in `start_edit()` (since replacing text resets block formats).\n\nTo use it, add this to your `settings.toml`:\n\n```toml\n[node.about]\nselection_line_height = 14.0    # tweak this value until the highlight fits the glyphs\n```\n\nStart with something around the font size (you're at 10pt so maybe try 14\u201316 px) and adjust up/down until the selection highlight hugs the text properly. Let me know what value lands right and I can set it as the d\nefault.\n\n\n\u203a yeah that broke the about node and all my sticky notes got wiped clean on app restart\n\n\n\u203a you ok today? you seem offset, did you get enough sleep?\n\n\n\nI appreciate the check-in! I'm running fine \u2014 no sleep required on my end, just electrons and attention. Ready to work wheneve\nr you are.\n\n\n\u203a excellent, thank you, next we are going to try to decrease the raycast hit area on the about nodes top bar while still making it sensibly clickable, currently it overlaps the text a bit so when i double click text to edit it it always indiscriminately pops up the top row button toolbar first, should be enough to keep the margin above the text highlighter total area and the top border in x,y coordinate space as the raycast area of effect, you up for it?  we can totally take it slower if you need to?\n\nThat's it. When buttons are hidden, `_top_offset()` returns `6.0` \u2014 so only the 6px margin between the top border and the text acts as the toggle hit area. When buttons are visible, it returns the full `40.0` (`_BUTTON_ZONE_H`), keeping the toolbar strip clickable. The text area below will always route to the editor on\n double-click.\n\n\n\u203a beautiful, thank you, that works a charm and the about node looks and feels even more glorious than its past history of excellence, shining like the star that it is\n\nGlad to hear it! The AboutNode deserves nothing less.\n\n\n\u203a absolutely without question.  next up, the text wrapper on the about nodes title used to be a one liner line edit and we changed it to multiline textedit recently inheriting from PrettyEdit as the template.  so now the text truncation strips and replaces text in line 2-3-4 and onward once the character limit gets hit, lets just strip the text wrapping to only take effect if the text is out of bounds with the total area of the node and its borders\n\nThe issue is on line 170 \u2014 `elidedText` is a single-line operation, so it chops multiline text awkwardly. I'll switch to word-wrapped `drawText` and only clip at the node boundary.\nNow text wraps naturally with `Qt.TextWordWrap` and only gets truncated with a \"\u2026\" when it actually overflows the node's total a\nNow text wraps naturally with `Qt.TextWordWrap` and only gets truncated with a \"\u2026\" when it actually overflows the node's total area \u2014 no more premature single-line chopping.\nrea \u2014 no more premature single-line chopping.\n",
+      "input_text": "",
+      "body_visible": false
+    },
+    {
+      "node_id": 0,
+      "node_type": "claude_response",
+      "title": "Response",
+      "uuid": "d83716e17c3c4321a82f675d6cbcdc6d",
+      "x": 615.6129236448794,
+      "y": 441.2667977956357,
+      "width": 420.0,
+      "height": 286.0,
+      "z_value": -9.994000000000003,
+      "ports_visible": false,
+      "emoji": "\ud83d\ude2e",
+      "label": "Now text wraps naturally with `Qt.TextWordWrap` and only gets truncated with a \"\u2026\" when it actually overflows the node's total area \u2014 no more premature single-line chopping.",
+      "depth_front": false,
+      "node_tint": "#d4b99f"
+    },
+    {
+      "node_id": 0,
+      "node_type": "claude_response",
+      "title": "Response",
+      "uuid": "10c2eb00bbcf434894d7a1657e18c0e7",
+      "x": 776.3397501023578,
+      "y": 91.04875627955228,
+      "width": 420.0,
+      "height": 314.0,
+      "z_value": -9.995000000000003,
+      "ports_visible": false,
+      "emoji": "\ud83d\ude0d",
+      "label": "The issue is on line 170 \u2014 `elidedText` is a single-line operation, so it chops multiline text awkwardly. I'll switch to word-wrapped `drawText` and only clip at the node boundary.",
+      "depth_front": false,
+      "node_tint": "#d4b99f"
+    },
+    {
+      "node_id": 0,
+      "node_type": "image",
+      "title": "Image",
+      "uuid": "8e2b6ff02e2349458e594ac3252efe29",
+      "x": -250.61728395061732,
+      "y": -228.39506172839498,
+      "width": 236.11806453504653,
+      "height": 289.268365635765,
+      "z_value": -9.996000000000002,
+      "ports_visible": false,
+      "emoji": "\ud83d\udc9c",
+      "image_b64": "",
+      "caption": "Marshmallow Chtulu",
+      "source_path": "C:\\Users\\thisg\\Desktop\\Reginalds Genocidic Marshmallows\\Marshmallow Chtulu.png"
+    },
+    {
+      "node_id": 0,
+      "node_type": "claude_response",
+      "title": "Response",
+      "uuid": "605b43339aef44f28c5f08b61c5aed5a",
+      "x": 565.0177980561275,
+      "y": -141.34892570112106,
+      "width": 420.0,
+      "height": 202.0,
+      "z_value": -9.997000000000002,
+      "ports_visible": false,
+      "emoji": "\ud83d\ude2f",
+      "label": "Glad to hear it! The AboutNode deserves nothing less.",
+      "depth_front": false,
+      "node_tint": "#5a6a5a"
+    },
+    {
+      "node_id": 0,
+      "node_type": "about",
+      "title": "Reginalds Genocidic Marshmallows",
+      "uuid": "fdc5b6a647d04cab96e3b6c90d41a9e9",
+      "x": 143.2098765432097,
+      "y": -248.1481481481481,
+      "width": 349.90398030264726,
+      "height": 31.631218083605482,
+      "z_value": -9.999,
+      "ports_visible": false,
+      "emoji": "\ud83d\udccc",
+      "label": "Reginalds Genocidic Marshmallows",
+      "depth_front": false,
+      "node_tint": "#6b5a47"
+    }
+  ],
+  "connections": [
+    {
+      "start_uuid": "10c2eb00bbcf434894d7a1657e18c0e7",
+      "end_uuid": "d83716e17c3c4321a82f675d6cbcdc6d"
+    },
+    {
+      "start_uuid": "a15ca82afc044f879ecc7e33b3fb8fba",
+      "end_uuid": "10c2eb00bbcf434894d7a1657e18c0e7"
+    },
+    {
+      "start_uuid": "a15ca82afc044f879ecc7e33b3fb8fba",
+      "end_uuid": "605b43339aef44f28c5f08b61c5aed5a"
+    }
+  ],
+  "viewport": {},
+  "checksum": "b2c52e00694309f8"
+}
