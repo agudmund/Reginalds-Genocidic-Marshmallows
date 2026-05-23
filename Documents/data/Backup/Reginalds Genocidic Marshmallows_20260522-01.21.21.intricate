@@ -5,63 +5,18 @@
     {
       "node_id": 0,
       "node_type": "about",
-      "title": "First of all",
-      "uuid": "0cff3ed0b6284239944d67aa07a9c714",
-      "x": 620.3389830508462,
-      "y": -102.77349768875195,
-      "width": 147.0327652740002,
-      "height": 30.104028395024358,
+      "title": "Destroy existence as we know it \nto battle The army the people had sent\nTo battle chtulu that they didnt even know",
+      "uuid": "df12049b642b42c79fef89e0033dd24e",
+      "x": 449.83789865191466,
+      "y": 1690.6629692423185,
+      "width": 504.03088667094386,
+      "height": 104.08400012747927,
       "z_value": -10.0,
       "ports_visible": false,
       "shelf_visible": false,
-      "label": "First of all",
+      "label": "Destroy existence as we know it \nto battle The army the people had sent\nTo battle chtulu that they didnt even know",
       "depth_front": false,
       "node_tint": "#2a3a2f"
-    },
-    {
-      "node_id": 0,
-      "node_type": "image",
-      "title": "Image",
-      "uuid": "ec273fefba8745e1adcc1f05e1494e76",
-      "x": 1324.2791107197886,
-      "y": 1064.2086726832488,
-      "width": 403.7288135593217,
-      "height": 425.0847457627119,
-      "z_value": -9.96500000000002,
-      "ports_visible": false,
-      "shelf_visible": false,
-      "image_b64": "",
-      "cache_key": "05c4b418ffc796cf40fcc39c0c51b8a1f02b0e4eb7da34bb145fed7a97142e1c",
-      "caption": "The Actual Apocalypse Arrived",
-      "source_path": "C:\\Users\\thisg\\Desktop\\Reginalds Genocidic Marshmallows\\The Actual Apocalypse Arrived.png",
-      "source_size": 523151,
-      "source_mtime": 1771215639.4021327,
-      "show_border": true,
-      "depth_front": false
-    },
-    {
-      "node_id": 0,
-      "node_type": "video",
-      "title": "Video",
-      "uuid": "16e757724bf64bf69bfa6a0d61c2b3e7",
-      "x": 2763.720488238907,
-      "y": 1885.6763612261252,
-      "width": 1561.057373269697,
-      "height": 898.3447724642047,
-      "z_value": -9.887000000000063,
-      "ports_visible": false,
-      "shelf_visible": false,
-      "source_path": "C:\\Users\\thisg\\Desktop\\Reginalds Genocidic Marshmallows\\Documents\\Data\\Cache\\063ddf4b754729039449819c584fa6878e56c8bf76486e72dc011ef61cb6950b.mp4",
-      "cache_key": "063ddf4b754729039449819c584fa6878e56c8bf76486e72dc011ef61cb6950b.mp4",
-      "source_size": 4623094,
-      "source_mtime": 1652637930.0,
-      "caption": "5 Stars, so good",
-      "volume": 50,
-      "playback_pos": 10538,
-      "looping": true,
-      "muted": false,
-      "show_border": false,
-      "was_playing": true
     },
     {
       "node_id": 0,
@@ -82,18 +37,18 @@
     {
       "node_id": 0,
       "node_type": "about",
-      "title": "Destroy existence as we know it \nto battle The army the people had sent\nTo battle chtulu that they didnt even know",
-      "uuid": "df12049b642b42c79fef89e0033dd24e",
-      "x": 449.83789865191466,
-      "y": 1690.6629692423185,
-      "width": 468.16927553815873,
-      "height": 89.95367143592568,
+      "title": "To genocide everyone he had ever loved",
+      "uuid": "e68361c665f54f96aa381141f784465a",
+      "x": -624.374330773559,
+      "y": 1862.6206004421756,
+      "width": 433.39655346834036,
+      "height": 36.408823195552145,
       "z_value": -10.0,
       "ports_visible": false,
       "shelf_visible": false,
-      "label": "Destroy existence as we know it \nto battle The army the people had sent\nTo battle chtulu that they didnt even know",
+      "label": "To genocide everyone he had ever loved",
       "depth_front": false,
-      "node_tint": "#2a3a2f"
+      "node_tint": ""
     },
     {
       "node_id": 0,
@@ -118,30 +73,14 @@
       "uuid": "87b4cc4c5ae1461cad9b3b39bd05349f",
       "x": 960.1584855822152,
       "y": 240.36979969183392,
-      "width": 293.5117290389811,
-      "height": 33.457496258859095,
+      "width": 300.66148913740597,
+      "height": 37.54307345795914,
       "z_value": -9.96400000000002,
       "ports_visible": false,
       "shelf_visible": false,
       "label": "All the people were afraid",
       "depth_front": false,
       "node_tint": "#2a3a2f"
-    },
-    {
-      "node_id": 0,
-      "node_type": "about",
-      "title": "To genocide everyone he had ever loved",
-      "uuid": "e68361c665f54f96aa381141f784465a",
-      "x": -624.374330773559,
-      "y": 1862.6206004421756,
-      "width": 433.39655346834036,
-      "height": 36.408823195552145,
-      "z_value": -10.0,
-      "ports_visible": false,
-      "shelf_visible": false,
-      "label": "To genocide everyone he had ever loved",
-      "depth_front": false,
-      "node_tint": ""
     },
     {
       "node_id": 0,
@@ -167,22 +106,6 @@
     {
       "node_id": 0,
       "node_type": "about",
-      "title": "Elegant",
-      "uuid": "165de9b3eabc4ae9bd5beac3238f3100",
-      "x": 535.7894736842102,
-      "y": 1197.8947368421045,
-      "width": 104.67908550337506,
-      "height": 34.93084789456043,
-      "z_value": -9.847000000000085,
-      "ports_visible": false,
-      "shelf_visible": false,
-      "label": "Elegant",
-      "depth_front": false,
-      "node_tint": "#2a3a2f"
-    },
-    {
-      "node_id": 0,
-      "node_type": "about",
       "title": "Watching everyone he had ever cared for, his own kin",
       "uuid": "7ec5deeb445e400a9f587453d60c41e7",
       "x": 69.48052781114427,
@@ -193,6 +116,22 @@
       "ports_visible": false,
       "shelf_visible": false,
       "label": "Watching everyone he had ever cared for, his own kin",
+      "depth_front": false,
+      "node_tint": "#2a3a2f"
+    },
+    {
+      "node_id": 0,
+      "node_type": "about",
+      "title": "Moravec's Paradox in action",
+      "uuid": "d677272f9df74e8bb91ac0366062cb47",
+      "x": 2006.493506493508,
+      "y": 1723.3766233766232,
+      "width": 310.0526501073948,
+      "height": 39.66667042764357,
+      "z_value": -9.884000000000064,
+      "ports_visible": false,
+      "shelf_visible": false,
+      "label": "Moravec's Paradox in action",
       "depth_front": false,
       "node_tint": "#2a3a2f"
     },
@@ -215,16 +154,32 @@
     {
       "node_id": 0,
       "node_type": "about",
-      "title": "Moravec's Paradox in action",
-      "uuid": "d677272f9df74e8bb91ac0366062cb47",
-      "x": 2006.493506493508,
-      "y": 1723.3766233766232,
-      "width": 310.0526501073948,
-      "height": 39.66667042764357,
-      "z_value": -9.884000000000064,
+      "title": "Elegant",
+      "uuid": "165de9b3eabc4ae9bd5beac3238f3100",
+      "x": 535.7894736842102,
+      "y": 1197.8947368421045,
+      "width": 120.0,
+      "height": 42.080607992985506,
+      "z_value": -9.847000000000085,
       "ports_visible": false,
       "shelf_visible": false,
-      "label": "Moravec's Paradox in action",
+      "label": "Elegant",
+      "depth_front": false,
+      "node_tint": "#2a3a2f"
+    },
+    {
+      "node_id": 0,
+      "node_type": "about",
+      "title": "And here we go",
+      "uuid": "0d77d9e010364429ac7b76de7416c696",
+      "x": 1360.018647324137,
+      "y": 1638.8761040708573,
+      "width": 180.95246608514094,
+      "height": 40.09941660254526,
+      "z_value": -9.845000000000086,
+      "ports_visible": false,
+      "shelf_visible": false,
+      "label": "And here we go",
       "depth_front": false,
       "node_tint": "#2a3a2f"
     },
@@ -278,22 +233,6 @@
     },
     {
       "node_id": 0,
-      "node_type": "about",
-      "title": "And here we go",
-      "uuid": "0d77d9e010364429ac7b76de7416c696",
-      "x": 1360.018647324137,
-      "y": 1638.8761040708573,
-      "width": 180.95246608514094,
-      "height": 40.09941660254526,
-      "z_value": -9.845000000000086,
-      "ports_visible": false,
-      "shelf_visible": false,
-      "label": "And here we go",
-      "depth_front": false,
-      "node_tint": "#2a3a2f"
-    },
-    {
-      "node_id": 0,
       "node_type": "warm",
       "title": "Sweet",
       "uuid": "19904115ffac4bfdacf2751a60ac2e52",
@@ -305,22 +244,6 @@
       "ports_visible": false,
       "shelf_visible": true,
       "body_text": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><meta charset=\"utf-8\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\nhr { height: 1px; border-width: 0; }\nli.unchecked::marker { content: \"\\2610\"; }\nli.checked::marker { content: \"\\2612\"; }\n</style></head><body style=\" font-family:'Segoe UI'; font-size:9pt; font-weight:400; font-style:normal;\">\n<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><br /></p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">And then one day we watched</p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">It grow in realtime</p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">from a simpleton </p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">who always used</p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">and additive solution</p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">by adding more additives</p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">like previous versions did</p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">to being self aware of its own complications</p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">and self determine to zoom out</p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">and just get out of the car and walk</p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">through the alley instead</p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">like the original parable</p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">mentioned two weeks ago</p></body></html>"
-    },
-    {
-      "node_id": 0,
-      "node_type": "about",
-      "title": "New and Fresh Mickey 17 Clone ready to go!",
-      "uuid": "7d10ccee0c6a49f08db9e2a7b36dcfdc",
-      "x": 3036.5715436479877,
-      "y": 1804.7347563738986,
-      "width": 464.2066942231754,
-      "height": 36.74858651958198,
-      "z_value": -9.883000000000065,
-      "ports_visible": false,
-      "shelf_visible": false,
-      "label": "New and Fresh Mickey 17 Clone ready to go!",
-      "depth_front": false,
-      "node_tint": "#2a3a2f"
     },
     {
       "node_id": 0,
@@ -340,7 +263,7 @@
       "source_mtime": 1761291942.1595094,
       "caption": "Finger taps the key 04",
       "volume": 50,
-      "playback_pos": 0,
+      "playback_pos": 4504,
       "looping": true,
       "muted": false,
       "show_border": false,
@@ -349,39 +272,18 @@
     {
       "node_id": 0,
       "node_type": "about",
-      "title": "Note",
-      "uuid": "70380990130d46ff93f021c2ee19df9a",
-      "x": 2138.7764004201276,
-      "y": 1243.5832151961697,
-      "width": 767.0,
-      "height": 52.0,
-      "z_value": -9.835000000000091,
+      "title": "New and Fresh Mickey 17 Clone ready to go!",
+      "uuid": "7d10ccee0c6a49f08db9e2a7b36dcfdc",
+      "x": 3036.5715436479877,
+      "y": 1804.7347563738986,
+      "width": 464.2066942231754,
+      "height": 36.74858651958198,
+      "z_value": -9.883000000000065,
       "ports_visible": false,
       "shelf_visible": false,
-      "label": "source drifted \u2014 cache no longer matches\nThe Actual Apocalypse Arrived.png",
+      "label": "New and Fresh Mickey 17 Clone ready to go!",
       "depth_front": false,
-      "node_tint": ""
-    },
-    {
-      "node_id": 0,
-      "node_type": "image",
-      "title": "Image",
-      "uuid": "4c312f1989394fbc8eff3e1fb90631ee",
-      "x": -1516.0539424903484,
-      "y": -279.8843264001931,
-      "width": 483.7671959303443,
-      "height": 528.0754277630598,
-      "z_value": -9.98300000000001,
-      "ports_visible": false,
-      "shelf_visible": false,
-      "image_b64": "",
-      "cache_key": "6ab49dfb58b1dd9b4c49b7257bea9d66a2ebbb5de9cb3a047f07ada9d5949fe4",
-      "caption": "The People Sent An Army",
-      "source_path": "C:\\Users\\thisg\\Desktop\\Reginalds Genocidic Marshmallows\\The People Sent An Army.png",
-      "source_size": 789764,
-      "source_mtime": 1771215613.2663052,
-      "show_border": true,
-      "depth_front": false
+      "node_tint": "#2a3a2f"
     },
     {
       "node_id": 0,
@@ -422,19 +324,40 @@
     },
     {
       "node_id": 0,
-      "node_type": "about",
-      "title": "As the only remaining evil",
-      "uuid": "fe19d97a0d264e80992644c1b4e6c4eb",
-      "x": -547.4536557585443,
-      "y": 2748.148607061898,
-      "width": 286.0640874553041,
-      "height": 33.60202316049981,
-      "z_value": -10.0,
+      "node_type": "image",
+      "title": "Image",
+      "uuid": "4c312f1989394fbc8eff3e1fb90631ee",
+      "x": -1516.0539424903484,
+      "y": -279.8843264001931,
+      "width": 483.7671959303443,
+      "height": 528.0754277630598,
+      "z_value": -9.98300000000001,
       "ports_visible": false,
       "shelf_visible": false,
-      "label": "As the only remaining evil",
+      "image_b64": "",
+      "cache_key": "6ab49dfb58b1dd9b4c49b7257bea9d66a2ebbb5de9cb3a047f07ada9d5949fe4",
+      "caption": "The People Sent An Army",
+      "source_path": "C:\\Users\\thisg\\Desktop\\Reginalds Genocidic Marshmallows\\The People Sent An Army.png",
+      "source_size": 789764,
+      "source_mtime": 1771215613.2663052,
+      "show_border": true,
+      "depth_front": false
+    },
+    {
+      "node_id": 0,
+      "node_type": "about",
+      "title": "Note",
+      "uuid": "70380990130d46ff93f021c2ee19df9a",
+      "x": 2138.7764004201276,
+      "y": 1243.5832151961697,
+      "width": 767.0,
+      "height": 52.0,
+      "z_value": -9.835000000000091,
+      "ports_visible": false,
+      "shelf_visible": false,
+      "label": "source drifted \u2014 cache no longer matches\nThe Actual Apocalypse Arrived.png",
       "depth_front": false,
-      "node_tint": "#2a3a2f"
+      "node_tint": ""
     },
     {
       "node_id": 0,
@@ -443,8 +366,8 @@
       "uuid": "15dff331f5774a9a80e72a281f687aa8",
       "x": -744.409162477077,
       "y": 2826.9298257225073,
-      "width": 326.52185626091546,
-      "height": 30.818934138975692,
+      "width": 333.6716163593405,
+      "height": 43.07566573627582,
       "z_value": -10.0,
       "ports_visible": false,
       "shelf_visible": false,
@@ -455,12 +378,28 @@
     {
       "node_id": 0,
       "node_type": "about",
+      "title": "As the only remaining evil",
+      "uuid": "fe19d97a0d264e80992644c1b4e6c4eb",
+      "x": -547.4536557585443,
+      "y": 2748.148607061898,
+      "width": 292.1924532539541,
+      "height": 41.773177558699444,
+      "z_value": -10.0,
+      "ports_visible": false,
+      "shelf_visible": false,
+      "label": "As the only remaining evil",
+      "depth_front": false,
+      "node_tint": "#2a3a2f"
+    },
+    {
+      "node_id": 0,
+      "node_type": "about",
       "title": "And end the war",
       "uuid": "ff17651a84a94421b88b1d0bd887e5b1",
       "x": 7.2969031343639585,
       "y": 2009.159751918909,
-      "width": 183.17891578121686,
-      "height": 31.300769162190136,
+      "width": 184.20031008099187,
+      "height": 47.64307795859031,
       "z_value": -10.0,
       "ports_visible": false,
       "shelf_visible": false,
@@ -475,8 +414,8 @@
       "uuid": "fdc5b6a647d04cab96e3b6c90d41a9e9",
       "x": 333.6698749433855,
       "y": -649.1104986142807,
-      "width": 343.0768882485081,
-      "height": 32.260088317744554,
+      "width": 352.7311358406805,
+      "height": 46.83238530170748,
       "z_value": -10.0,
       "ports_visible": false,
       "shelf_visible": false,
@@ -487,12 +426,28 @@
     {
       "node_id": 0,
       "node_type": "about",
+      "title": "Knowing that by doing this, \nAnd become the only remaining surviving marshmallow care bear in existence",
+      "uuid": "e811f3cf73004b08a5a7d3a1686c376b",
+      "x": -465.73252444963634,
+      "y": 2444.2776797958845,
+      "width": 507.54509969549537,
+      "height": 108.25894675498716,
+      "z_value": -10.0,
+      "ports_visible": false,
+      "shelf_visible": false,
+      "label": "Knowing that by doing this, \nAnd become the only remaining surviving marshmallow care bear in existence",
+      "depth_front": false,
+      "node_tint": "#2a3a2f"
+    },
+    {
+      "node_id": 0,
+      "node_type": "about",
       "title": "That he would forever be perceived",
       "uuid": "42e4b9dc13094277b5bf8eed2fed713a",
       "x": -760.5103991584733,
       "y": 2637.63897162652,
-      "width": 366.68822694343163,
-      "height": 32.48365684107057,
+      "width": 382.0091414400566,
+      "height": 42.69759983882068,
       "z_value": -10.0,
       "ports_visible": false,
       "shelf_visible": false,
@@ -517,34 +472,18 @@
     {
       "node_id": 0,
       "node_type": "about",
-      "title": "Knowing that by doing this, \nAnd become the only remaining surviving marshmallow care bear in existence",
-      "uuid": "e811f3cf73004b08a5a7d3a1686c376b",
-      "x": -465.73252444963634,
-      "y": 2444.2776797958845,
-      "width": 429.9585614259476,
-      "height": 90.47436293738633,
-      "z_value": -10.0,
+      "title": "Note",
+      "uuid": "b861199e7533472783f4e045d1b0bd64",
+      "x": 1092.935024012069,
+      "y": 416.9476782384644,
+      "width": 657.0,
+      "height": 52.0,
+      "z_value": -9.795000000000114,
       "ports_visible": false,
       "shelf_visible": false,
-      "label": "Knowing that by doing this, \nAnd become the only remaining surviving marshmallow care bear in existence",
+      "label": "source drifted \u2014 cache no longer matches\nMarshmallow Chtulu.png",
       "depth_front": false,
-      "node_tint": "#2a3a2f"
-    },
-    {
-      "node_id": 0,
-      "node_type": "about",
-      "title": "8 pixels is a huge gap\nto someone who operates \nonly at pixel\nperfection level",
-      "uuid": "ae8bb423f631420683670bf72f745ceb",
-      "x": 2124.282106782108,
-      "y": 3381.7712842712845,
-      "width": 298.6124847713686,
-      "height": 130.28040904649743,
-      "z_value": -9.895000000000058,
-      "ports_visible": false,
-      "shelf_visible": false,
-      "label": "8 pixels is a huge gap\nto someone who operates \nonly at pixel\nperfection level",
-      "depth_front": false,
-      "node_tint": "#2a3a2f"
+      "node_tint": ""
     },
     {
       "node_id": 0,
@@ -569,8 +508,8 @@
       "uuid": "ff4b1fcaff294dd5b30fc231c1a26d1b",
       "x": 795.817741580453,
       "y": 147.28153202729482,
-      "width": 663.3099266837077,
-      "height": 32.157870492983506,
+      "width": 677.6094468805578,
+      "height": 36.243447692083436,
       "z_value": 10.0,
       "ports_visible": false,
       "shelf_visible": false,
@@ -581,12 +520,28 @@
     {
       "node_id": 0,
       "node_type": "about",
+      "title": "8 pixels is a huge gap\nto someone who operates \nonly at pixel\nperfection level",
+      "uuid": "ae8bb423f631420683670bf72f745ceb",
+      "x": 2124.282106782108,
+      "y": 3381.7712842712845,
+      "width": 298.6124847713686,
+      "height": 130.28040904649743,
+      "z_value": -9.895000000000058,
+      "ports_visible": false,
+      "shelf_visible": false,
+      "label": "8 pixels is a huge gap\nto someone who operates \nonly at pixel\nperfection level",
+      "depth_front": false,
+      "node_tint": "#2a3a2f"
+    },
+    {
+      "node_id": 0,
+      "node_type": "about",
       "title": "And all the actual marshmallows \nHad to start fighting back and \nSent an even bigger army",
       "uuid": "ef5b4aea2ea146e5856665a94757d661",
       "x": -1325.7759189962587,
       "y": 289.8965441338328,
-      "width": 344.2996722523501,
-      "height": 88.25361258306157,
+      "width": 354.005040132212,
+      "height": 97.87021392984269,
       "z_value": -10.0,
       "ports_visible": false,
       "shelf_visible": false,
@@ -601,8 +556,8 @@
       "uuid": "af475e4151f04940b8267ee06dda3177",
       "x": 206.10007795337327,
       "y": 1838.483606869632,
-      "width": 501.2233153685954,
-      "height": 40.354769396401935,
+      "width": 506.3302868674705,
+      "height": 49.547318094376806,
       "z_value": -10.0,
       "ports_visible": false,
       "shelf_visible": false,
@@ -649,30 +604,6 @@
     },
     {
       "node_id": 0,
-      "node_type": "video",
-      "title": "Video",
-      "uuid": "e891adb29b9a452eb41f66df2237b4dc",
-      "x": -3.2638472619274808,
-      "y": -566.7374095661987,
-      "width": 391.0175873803788,
-      "height": 240.1973929014631,
-      "z_value": -9.966000000000019,
-      "ports_visible": false,
-      "shelf_visible": false,
-      "source_path": "C:\\Users\\thisg\\Desktop\\Its Still The Same Book Really\\Untitles\\Clips\\Finger Taps the key\\Finger taps the key 01.mp4",
-      "cache_key": "eff289d1efc90031943f47a4b36d8a0d2483a7459e394d621617261006b5e909.mp4",
-      "source_size": 857310,
-      "source_mtime": 1761291938.0077932,
-      "caption": "Finger taps the key 01",
-      "volume": 50,
-      "playback_pos": 4587,
-      "looping": true,
-      "muted": false,
-      "show_border": false,
-      "was_playing": true
-    },
-    {
-      "node_id": 0,
       "node_type": "about",
       "title": "Note",
       "uuid": "646d1d6429a2480989cfa019dcc148d5",
@@ -689,17 +620,86 @@
     },
     {
       "node_id": 0,
+      "node_type": "video",
+      "title": "Video",
+      "uuid": "e891adb29b9a452eb41f66df2237b4dc",
+      "x": -3.2638472619274808,
+      "y": -566.7374095661987,
+      "width": 391.0175873803788,
+      "height": 240.1973929014631,
+      "z_value": -9.966000000000019,
+      "ports_visible": false,
+      "shelf_visible": false,
+      "source_path": "C:\\Users\\thisg\\Desktop\\Its Still The Same Book Really\\Untitles\\Clips\\Finger Taps the key\\Finger taps the key 01.mp4",
+      "cache_key": "eff289d1efc90031943f47a4b36d8a0d2483a7459e394d621617261006b5e909.mp4",
+      "source_size": 857310,
+      "source_mtime": 1761291938.0077932,
+      "caption": "Finger taps the key 01",
+      "volume": 50,
+      "playback_pos": 3962,
+      "looping": true,
+      "muted": false,
+      "show_border": false,
+      "was_playing": true
+    },
+    {
+      "node_id": 0,
+      "node_type": "video",
+      "title": "Video",
+      "uuid": "16e757724bf64bf69bfa6a0d61c2b3e7",
+      "x": 2763.720488238907,
+      "y": 1885.6763612261252,
+      "width": 1561.057373269697,
+      "height": 898.3447724642047,
+      "z_value": -9.887000000000063,
+      "ports_visible": false,
+      "shelf_visible": false,
+      "source_path": "C:\\Users\\thisg\\Desktop\\Reginalds Genocidic Marshmallows\\Documents\\Data\\Cache\\063ddf4b754729039449819c584fa6878e56c8bf76486e72dc011ef61cb6950b.mp4",
+      "cache_key": "063ddf4b754729039449819c584fa6878e56c8bf76486e72dc011ef61cb6950b.mp4",
+      "source_size": 4623094,
+      "source_mtime": 1652637930.0,
+      "caption": "5 Stars, so good",
+      "volume": 50,
+      "playback_pos": 14442,
+      "looping": true,
+      "muted": false,
+      "show_border": false,
+      "was_playing": true
+    },
+    {
+      "node_id": 0,
+      "node_type": "image",
+      "title": "Image",
+      "uuid": "ec273fefba8745e1adcc1f05e1494e76",
+      "x": 1324.2791107197886,
+      "y": 1064.2086726832488,
+      "width": 403.7288135593217,
+      "height": 425.0847457627119,
+      "z_value": -9.96500000000002,
+      "ports_visible": false,
+      "shelf_visible": false,
+      "image_b64": "",
+      "cache_key": "05c4b418ffc796cf40fcc39c0c51b8a1f02b0e4eb7da34bb145fed7a97142e1c",
+      "caption": "The Actual Apocalypse Arrived",
+      "source_path": "C:\\Users\\thisg\\Desktop\\Reginalds Genocidic Marshmallows\\The Actual Apocalypse Arrived.png",
+      "source_size": 523151,
+      "source_mtime": 1771215639.4021327,
+      "show_border": true,
+      "depth_front": false
+    },
+    {
+      "node_id": 0,
       "node_type": "about",
-      "title": "And this led to the actual apocalypse arriving",
-      "uuid": "5e8b4b5cd61b4a2caed9ecce35b282c2",
-      "x": 1232.3574730354385,
-      "y": 1017.6535329077708,
-      "width": 507.1098275111701,
-      "height": 33.74339329562319,
+      "title": "First of all",
+      "uuid": "0cff3ed0b6284239944d67aa07a9c714",
+      "x": 620.3389830508462,
+      "y": -102.77349768875195,
+      "width": 161.33228547085025,
+      "height": 35.2109998938993,
       "z_value": -10.0,
       "ports_visible": false,
       "shelf_visible": false,
-      "label": "And this led to the actual apocalypse arriving",
+      "label": "First of all",
       "depth_front": false,
       "node_tint": "#2a3a2f"
     },
@@ -727,12 +727,28 @@
     {
       "node_id": 0,
       "node_type": "about",
+      "title": "And this led to the actual apocalypse arriving",
+      "uuid": "5e8b4b5cd61b4a2caed9ecce35b282c2",
+      "x": 1232.3574730354385,
+      "y": 1017.6535329077708,
+      "width": 507.1098275111701,
+      "height": 33.74339329562319,
+      "z_value": -10.0,
+      "ports_visible": false,
+      "shelf_visible": false,
+      "label": "And this led to the actual apocalypse arriving",
+      "depth_front": false,
+      "node_tint": "#2a3a2f"
+    },
+    {
+      "node_id": 0,
+      "node_type": "about",
       "title": "And their homes being destroyed",
       "uuid": "4696f3c34c124d3ea405e277010dc0d6",
       "x": 510.98992828838163,
       "y": 298.6237104944257,
-      "width": 339.55954122009234,
-      "height": 31.732481927817787,
+      "width": 348.75208991806744,
+      "height": 36.83945342669284,
       "z_value": -9.96300000000002,
       "ports_visible": false,
       "shelf_visible": false,
@@ -758,7 +774,7 @@
       "source_mtime": 1761291939.6412168,
       "caption": "Finger taps the key 02",
       "volume": 50,
-      "playback_pos": 5213,
+      "playback_pos": 4170,
       "looping": true,
       "muted": false,
       "show_border": false,
@@ -787,14 +803,35 @@
       "uuid": "bb7169ad299443108ad74289b79884b8",
       "x": -1190.9626520285656,
       "y": 1467.0139340319788,
-      "width": 735.1030716415876,
-      "height": 34.371086433762684,
+      "width": 763.7021120352877,
+      "height": 43.56363513173778,
       "z_value": -10.0,
       "ports_visible": false,
       "shelf_visible": false,
       "label": "This left Reginald in a brand new position he had never been in before",
       "depth_front": false,
       "node_tint": "#2a3a2f"
+    },
+    {
+      "node_id": 0,
+      "node_type": "image",
+      "title": "Image",
+      "uuid": "9fa0faecdf9e4fed8416c7d2a3c7ced3",
+      "x": -883.420867433716,
+      "y": -308.599052957082,
+      "width": 311.82167037603074,
+      "height": 361.73741857059053,
+      "z_value": -9.992000000000004,
+      "ports_visible": false,
+      "shelf_visible": false,
+      "image_b64": "",
+      "cache_key": "0584c133abb2f4f3deb964260044111953c1a2fac44eff2b394211924b5cef86",
+      "caption": "God Was Away On Business",
+      "source_path": "C:\\Users\\thisg\\Desktop\\Reginalds Genocidic Marshmallows\\God Was Away On Business.png",
+      "source_size": 573058,
+      "source_mtime": 1775189907.0185738,
+      "show_border": true,
+      "depth_front": false
     },
     {
       "node_id": 0,
@@ -830,27 +867,6 @@
     },
     {
       "node_id": 0,
-      "node_type": "image",
-      "title": "Image",
-      "uuid": "9fa0faecdf9e4fed8416c7d2a3c7ced3",
-      "x": -883.420867433716,
-      "y": -308.599052957082,
-      "width": 311.82167037603074,
-      "height": 361.73741857059053,
-      "z_value": -9.992000000000004,
-      "ports_visible": false,
-      "shelf_visible": false,
-      "image_b64": "",
-      "cache_key": "0584c133abb2f4f3deb964260044111953c1a2fac44eff2b394211924b5cef86",
-      "caption": "God Was Away On Business",
-      "source_path": "C:\\Users\\thisg\\Desktop\\Reginalds Genocidic Marshmallows\\God Was Away On Business.png",
-      "source_size": 573058,
-      "source_mtime": 1775189907.0185738,
-      "show_border": true,
-      "depth_front": false
-    },
-    {
-      "node_id": 0,
       "node_type": "about",
       "title": "Note",
       "uuid": "207ad3ccceef4adf8be64352a3d74674",
@@ -868,18 +884,18 @@
     {
       "node_id": 0,
       "node_type": "about",
-      "title": "Note",
-      "uuid": "bc0e146f86ae4ae49379060a6082da05",
-      "x": -282.00378727241775,
-      "y": 857.0437560266947,
-      "width": 120.24975796913802,
-      "height": 36.452627127592336,
-      "z_value": 10.0,
+      "title": "So like....",
+      "uuid": "008f8f90ea9e49bd86e35ebb98077018",
+      "x": 552.542372881356,
+      "y": -162.71186440677968,
+      "width": 140.95290621619858,
+      "height": 32.82778617660745,
+      "z_value": -10.0,
       "ports_visible": false,
       "shelf_visible": false,
-      "label": "Intricate",
-      "depth_front": true,
-      "node_tint": "#2a3a2f"
+      "label": "So like....",
+      "depth_front": false,
+      "node_tint": ""
     },
     {
       "node_id": 0,
@@ -900,22 +916,6 @@
     {
       "node_id": 0,
       "node_type": "about",
-      "title": "So like....",
-      "uuid": "008f8f90ea9e49bd86e35ebb98077018",
-      "x": 552.542372881356,
-      "y": -162.71186440677968,
-      "width": 134.82454041754863,
-      "height": 31.80639187683255,
-      "z_value": -10.0,
-      "ports_visible": false,
-      "shelf_visible": false,
-      "label": "So like....",
-      "depth_front": false,
-      "node_tint": ""
-    },
-    {
-      "node_id": 0,
-      "node_type": "about",
       "title": "Note",
       "uuid": "0a7b73cbb2884f758491306335e2fcdd",
       "x": 1479.9999999999995,
@@ -932,16 +932,16 @@
     {
       "node_id": 0,
       "node_type": "about",
-      "title": "It only says \"We Arrive In The Morning\"",
-      "uuid": "b9b89ad5b3cb4cfda385de4408ba8d68",
-      "x": -1223.5032553113424,
-      "y": 767.6442795286164,
-      "width": 423.61702184879493,
-      "height": 38.556038535393924,
+      "title": "Note",
+      "uuid": "bc0e146f86ae4ae49379060a6082da05",
+      "x": -282.00378727241775,
+      "y": 857.0437560266947,
+      "width": 132.506489566438,
+      "height": 46.66657012534233,
       "z_value": 10.0,
       "ports_visible": false,
       "shelf_visible": false,
-      "label": "It only says \"We Arrive In The Morning\"",
+      "label": "Intricate",
       "depth_front": true,
       "node_tint": "#2a3a2f"
     },
@@ -952,8 +952,8 @@
       "uuid": "a1d9b05d2e8942d290fe3a01f8f3598a",
       "x": 87.80494317723566,
       "y": 46.69236834444658,
-      "width": 329.3275457043717,
-      "height": 31.45679235685438,
+      "width": 337.4987001025717,
+      "height": 38.6065524552794,
       "z_value": 10.0,
       "ports_visible": false,
       "shelf_visible": false,
@@ -995,11 +995,43 @@
       "source_mtime": 1761485120.9577913,
       "caption": "hugging unit frame_1",
       "volume": 50,
-      "playback_pos": 44757,
+      "playback_pos": 16320,
       "looping": true,
       "muted": false,
       "show_border": false,
       "was_playing": true
+    },
+    {
+      "node_id": 0,
+      "node_type": "about",
+      "title": "It only says \"We Arrive In The Morning\"",
+      "uuid": "b9b89ad5b3cb4cfda385de4408ba8d68",
+      "x": -1223.5032553113424,
+      "y": 767.6442795286164,
+      "width": 423.61702184879493,
+      "height": 38.556038535393924,
+      "z_value": 10.0,
+      "ports_visible": false,
+      "shelf_visible": false,
+      "label": "It only says \"We Arrive In The Morning\"",
+      "depth_front": true,
+      "node_tint": "#2a3a2f"
+    },
+    {
+      "node_id": 0,
+      "node_type": "about",
+      "title": "Note",
+      "uuid": "06c43352f38d4c348fde24268f4c922e",
+      "x": 1930.3762410085267,
+      "y": 1019.5530438286996,
+      "width": 767.0,
+      "height": 52.0,
+      "z_value": -9.813000000000104,
+      "ports_visible": false,
+      "shelf_visible": false,
+      "label": "source drifted \u2014 cache no longer matches\nThe Actual Apocalypse Arrived.png",
+      "depth_front": false,
+      "node_tint": ""
     },
     {
       "node_id": 0,
@@ -1021,22 +1053,6 @@
       "node_id": 0,
       "node_type": "about",
       "title": "Note",
-      "uuid": "06c43352f38d4c348fde24268f4c922e",
-      "x": 1930.3762410085267,
-      "y": 1019.5530438286996,
-      "width": 767.0,
-      "height": 52.0,
-      "z_value": -9.813000000000104,
-      "ports_visible": false,
-      "shelf_visible": false,
-      "label": "source drifted \u2014 cache no longer matches\nThe Actual Apocalypse Arrived.png",
-      "depth_front": false,
-      "node_tint": ""
-    },
-    {
-      "node_id": 0,
-      "node_type": "about",
-      "title": "Note",
       "uuid": "19a5af43f1f8485da8c7b0d926de2d9b",
       "x": 2168.2997563367708,
       "y": 1080.3364236570828,
@@ -1052,32 +1068,40 @@
   ],
   "connections": [
     {
-      "start_uuid": "d677272f9df74e8bb91ac0366062cb47",
-      "end_uuid": "7b1773cc9afe47038d108d0386a0950c"
+      "start_uuid": "008f8f90ea9e49bd86e35ebb98077018",
+      "end_uuid": "0cff3ed0b6284239944d67aa07a9c714"
     },
     {
-      "start_uuid": "16e757724bf64bf69bfa6a0d61c2b3e7",
-      "end_uuid": "d7281dbe38df48ef9928083c02cf70e0"
+      "start_uuid": "df12049b642b42c79fef89e0033dd24e",
+      "end_uuid": "af475e4151f04940b8267ee06dda3177"
     },
     {
-      "start_uuid": "99cf95d1cea040a8985eb91951a57015",
-      "end_uuid": "278836eec5314e2ab3bcc5cb30854170"
+      "start_uuid": "d7a440d47a7e4a0d99661b4a386390fa",
+      "end_uuid": "e811f3cf73004b08a5a7d3a1686c376b"
     },
     {
-      "start_uuid": "ef5b4aea2ea146e5856665a94757d661",
-      "end_uuid": "5e8b4b5cd61b4a2caed9ecce35b282c2"
+      "start_uuid": "fdc5b6a647d04cab96e3b6c90d41a9e9",
+      "end_uuid": "e891adb29b9a452eb41f66df2237b4dc"
     },
     {
-      "start_uuid": "e68361c665f54f96aa381141f784465a",
-      "end_uuid": "ff17651a84a94421b88b1d0bd887e5b1"
+      "start_uuid": "ae8bb423f631420683670bf72f745ceb",
+      "end_uuid": "a51e42ad6fac445eb39d379f7d41217a"
     },
     {
-      "start_uuid": "0cff3ed0b6284239944d67aa07a9c714",
-      "end_uuid": "ff4b1fcaff294dd5b30fc231c1a26d1b"
+      "start_uuid": "7ec5deeb445e400a9f587453d60c41e7",
+      "end_uuid": "df12049b642b42c79fef89e0033dd24e"
     },
     {
       "start_uuid": "ec273fefba8745e1adcc1f05e1494e76",
       "end_uuid": "19a5af43f1f8485da8c7b0d926de2d9b"
+    },
+    {
+      "start_uuid": "ae8bb423f631420683670bf72f745ceb",
+      "end_uuid": "de3a3488c61e42c2b755853d499f4b4e"
+    },
+    {
+      "start_uuid": "0cff3ed0b6284239944d67aa07a9c714",
+      "end_uuid": "ff4b1fcaff294dd5b30fc231c1a26d1b"
     },
     {
       "start_uuid": "ff4b1fcaff294dd5b30fc231c1a26d1b",
@@ -1093,43 +1117,23 @@
     },
     {
       "start_uuid": "ec273fefba8745e1adcc1f05e1494e76",
-      "end_uuid": "207ad3ccceef4adf8be64352a3d74674"
+      "end_uuid": "70380990130d46ff93f021c2ee19df9a"
     },
     {
-      "start_uuid": "a1d9b05d2e8942d290fe3a01f8f3598a",
-      "end_uuid": "9fa0faecdf9e4fed8416c7d2a3c7ced3"
+      "start_uuid": "af475e4151f04940b8267ee06dda3177",
+      "end_uuid": "e68361c665f54f96aa381141f784465a"
     },
     {
-      "start_uuid": "df12049b642b42c79fef89e0033dd24e",
-      "end_uuid": "af475e4151f04940b8267ee06dda3177"
+      "start_uuid": "5e8b4b5cd61b4a2caed9ecce35b282c2",
+      "end_uuid": "bb7169ad299443108ad74289b79884b8"
     },
     {
-      "start_uuid": "87b4cc4c5ae1461cad9b3b39bd05349f",
-      "end_uuid": "4696f3c34c124d3ea405e277010dc0d6"
-    },
-    {
-      "start_uuid": "4696f3c34c124d3ea405e277010dc0d6",
-      "end_uuid": "a1d9b05d2e8942d290fe3a01f8f3598a"
+      "start_uuid": "fe19d97a0d264e80992644c1b4e6c4eb",
+      "end_uuid": "15dff331f5774a9a80e72a281f687aa8"
     },
     {
       "start_uuid": "bb7169ad299443108ad74289b79884b8",
       "end_uuid": "7ec5deeb445e400a9f587453d60c41e7"
-    },
-    {
-      "start_uuid": "a51e42ad6fac445eb39d379f7d41217a",
-      "end_uuid": "de3a3488c61e42c2b755853d499f4b4e"
-    },
-    {
-      "start_uuid": "ec273fefba8745e1adcc1f05e1494e76",
-      "end_uuid": "edfda167b14f425ab8dc42f4d5681b3c"
-    },
-    {
-      "start_uuid": "19904115ffac4bfdacf2751a60ac2e52",
-      "end_uuid": "ae8bb423f631420683670bf72f745ceb"
-    },
-    {
-      "start_uuid": "c042ddcb0c784d7da19bd8d27c2d8130",
-      "end_uuid": "b9b89ad5b3cb4cfda385de4408ba8d68"
     },
     {
       "start_uuid": "ec273fefba8745e1adcc1f05e1494e76",
@@ -1137,73 +1141,88 @@
     },
     {
       "start_uuid": "ec273fefba8745e1adcc1f05e1494e76",
-      "end_uuid": "06c43352f38d4c348fde24268f4c922e"
+      "end_uuid": "edfda167b14f425ab8dc42f4d5681b3c"
     },
     {
-      "start_uuid": "e811f3cf73004b08a5a7d3a1686c376b",
-      "end_uuid": "42e4b9dc13094277b5bf8eed2fed713a"
-    },
-    {
-      "start_uuid": "5e8b4b5cd61b4a2caed9ecce35b282c2",
-      "end_uuid": "bb7169ad299443108ad74289b79884b8"
+      "start_uuid": "ec273fefba8745e1adcc1f05e1494e76",
+      "end_uuid": "207ad3ccceef4adf8be64352a3d74674"
     },
     {
       "start_uuid": "a1d9b05d2e8942d290fe3a01f8f3598a",
       "end_uuid": "ef5b4aea2ea146e5856665a94757d661"
     },
     {
-      "start_uuid": "fe19d97a0d264e80992644c1b4e6c4eb",
-      "end_uuid": "15dff331f5774a9a80e72a281f687aa8"
+      "start_uuid": "8e2b6ff02e2349458e594ac3252efe29",
+      "end_uuid": "b861199e7533472783f4e045d1b0bd64"
     },
     {
-      "start_uuid": "fdc5b6a647d04cab96e3b6c90d41a9e9",
-      "end_uuid": "e891adb29b9a452eb41f66df2237b4dc"
+      "start_uuid": "a1d9b05d2e8942d290fe3a01f8f3598a",
+      "end_uuid": "9fa0faecdf9e4fed8416c7d2a3c7ced3"
     },
     {
-      "start_uuid": "ae8bb423f631420683670bf72f745ceb",
-      "end_uuid": "a51e42ad6fac445eb39d379f7d41217a"
+      "start_uuid": "ec273fefba8745e1adcc1f05e1494e76",
+      "end_uuid": "06c43352f38d4c348fde24268f4c922e"
     },
     {
-      "start_uuid": "ae8bb423f631420683670bf72f745ceb",
+      "start_uuid": "87b4cc4c5ae1461cad9b3b39bd05349f",
+      "end_uuid": "4696f3c34c124d3ea405e277010dc0d6"
+    },
+    {
+      "start_uuid": "16e757724bf64bf69bfa6a0d61c2b3e7",
+      "end_uuid": "d7281dbe38df48ef9928083c02cf70e0"
+    },
+    {
+      "start_uuid": "4696f3c34c124d3ea405e277010dc0d6",
+      "end_uuid": "a1d9b05d2e8942d290fe3a01f8f3598a"
+    },
+    {
+      "start_uuid": "a51e42ad6fac445eb39d379f7d41217a",
       "end_uuid": "de3a3488c61e42c2b755853d499f4b4e"
-    },
-    {
-      "start_uuid": "d7a440d47a7e4a0d99661b4a386390fa",
-      "end_uuid": "e811f3cf73004b08a5a7d3a1686c376b"
-    },
-    {
-      "start_uuid": "af475e4151f04940b8267ee06dda3177",
-      "end_uuid": "e68361c665f54f96aa381141f784465a"
     },
     {
       "start_uuid": "ec273fefba8745e1adcc1f05e1494e76",
       "end_uuid": "646d1d6429a2480989cfa019dcc148d5"
     },
     {
-      "start_uuid": "008f8f90ea9e49bd86e35ebb98077018",
-      "end_uuid": "0cff3ed0b6284239944d67aa07a9c714"
-    },
-    {
-      "start_uuid": "7ec5deeb445e400a9f587453d60c41e7",
-      "end_uuid": "df12049b642b42c79fef89e0033dd24e"
-    },
-    {
-      "start_uuid": "ec273fefba8745e1adcc1f05e1494e76",
-      "end_uuid": "70380990130d46ff93f021c2ee19df9a"
+      "start_uuid": "99cf95d1cea040a8985eb91951a57015",
+      "end_uuid": "278836eec5314e2ab3bcc5cb30854170"
     },
     {
       "start_uuid": "fdc5b6a647d04cab96e3b6c90d41a9e9",
       "end_uuid": "008f8f90ea9e49bd86e35ebb98077018"
+    },
+    {
+      "start_uuid": "19904115ffac4bfdacf2751a60ac2e52",
+      "end_uuid": "ae8bb423f631420683670bf72f745ceb"
+    },
+    {
+      "start_uuid": "e811f3cf73004b08a5a7d3a1686c376b",
+      "end_uuid": "42e4b9dc13094277b5bf8eed2fed713a"
+    },
+    {
+      "start_uuid": "e68361c665f54f96aa381141f784465a",
+      "end_uuid": "ff17651a84a94421b88b1d0bd887e5b1"
+    },
+    {
+      "start_uuid": "d677272f9df74e8bb91ac0366062cb47",
+      "end_uuid": "7b1773cc9afe47038d108d0386a0950c"
+    },
+    {
+      "start_uuid": "ef5b4aea2ea146e5856665a94757d661",
+      "end_uuid": "5e8b4b5cd61b4a2caed9ecce35b282c2"
+    },
+    {
+      "start_uuid": "c042ddcb0c784d7da19bd8d27c2d8130",
+      "end_uuid": "b9b89ad5b3cb4cfda385de4408ba8d68"
     }
   ],
   "viewport": {
-    "camera_x": 519.8896985854753,
-    "camera_y": -346.2526676237253,
-    "camera_zoom": 0.9790538288888889
+    "camera_x": -613.1577714539567,
+    "camera_y": 1250.5191391495168,
+    "camera_zoom": 0.4957940911017679
   },
   "ui_migrations": [
     "image_border_default_on_v1"
   ],
-  "last_browse_dirs": {},
-  "checksum": "2f9777bfa173530e"
+  "checksum": "1edf826bc1fe1287"
 }

@@ -57,7 +57,7 @@
       "source_mtime": 1652637930.0,
       "caption": "5 Stars, so good",
       "volume": 50,
-      "playback_pos": 10538,
+      "playback_pos": 14442,
       "looping": true,
       "muted": false,
       "show_border": false,
@@ -340,7 +340,7 @@
       "source_mtime": 1761291942.1595094,
       "caption": "Finger taps the key 04",
       "volume": 50,
-      "playback_pos": 0,
+      "playback_pos": 2627,
       "looping": true,
       "muted": false,
       "show_border": false,
@@ -665,7 +665,7 @@
       "source_mtime": 1761291938.0077932,
       "caption": "Finger taps the key 01",
       "volume": 50,
-      "playback_pos": 4587,
+      "playback_pos": 1710,
       "looping": true,
       "muted": false,
       "show_border": false,
@@ -758,7 +758,7 @@
       "source_mtime": 1761291939.6412168,
       "caption": "Finger taps the key 02",
       "volume": 50,
-      "playback_pos": 5213,
+      "playback_pos": 4462,
       "looping": true,
       "muted": false,
       "show_border": false,
@@ -995,7 +995,7 @@
       "source_mtime": 1761485120.9577913,
       "caption": "hugging unit frame_1",
       "volume": 50,
-      "playback_pos": 44757,
+      "playback_pos": 27694,
       "looping": true,
       "muted": false,
       "show_border": false,
@@ -1197,13 +1197,13 @@
     }
   ],
   "viewport": {
-    "camera_x": 519.8896985854753,
-    "camera_y": -346.2526676237253,
+    "camera_x": 1971.2909985657514,
+    "camera_y": 1875.2799343869012,
     "camera_zoom": 0.9790538288888889
   },
   "ui_migrations": [
     "image_border_default_on_v1"
   ],
   "last_browse_dirs": {},
-  "checksum": "2f9777bfa173530e"
+  "checksum": "d0e61bf86c2e414c"
 }
