@@ -272,7 +272,7 @@
       "source_mtime": 1761291942.1595094,
       "caption": "Finger taps the key 04",
       "volume": 50,
-      "playback_pos": 2002,
+      "playback_pos": 4879,
       "looping": true,
       "muted": false,
       "show_border": false,
@@ -519,7 +519,7 @@
       "source_mtime": 1761291938.0077932,
       "caption": "Finger taps the key 01",
       "volume": 50,
-      "playback_pos": 5505,
+      "playback_pos": 3253,
       "looping": true,
       "muted": false,
       "show_border": false,
@@ -581,7 +581,7 @@
       "source_mtime": 1761291939.6412168,
       "caption": "Finger taps the key 02",
       "volume": 50,
-      "playback_pos": 4212,
+      "playback_pos": 1251,
       "looping": true,
       "muted": false,
       "show_border": false,
@@ -769,8 +769,8 @@
       "uuid": "ff4b1fcaff294dd5b30fc231c1a26d1b",
       "x": 795.817741580453,
       "y": 147.28153202729482,
-      "width": 663.3099266837077,
-      "height": 32.157870492983506,
+      "width": 637.328125,
+      "height": 29.0,
       "z_value": 10.0,
       "ports_visible": false,
       "shelf_visible": false,
@@ -927,27 +927,6 @@
     },
     {
       "node_id": 0,
-      "node_type": "image",
-      "title": "Image",
-      "uuid": "8e2b6ff02e2349458e594ac3252efe29",
-      "x": 855.0115086838252,
-      "y": -433.8146055660178,
-      "width": 537.9362641760104,
-      "height": 568.5254165448848,
-      "z_value": -9.996000000000002,
-      "ports_visible": false,
-      "shelf_visible": false,
-      "image_b64": "",
-      "cache_key": "25db73c1bfd9208302339779f374ba17e06f338cf9ff8d48d6c8ccd44512d007",
-      "caption": "Marshmallow Chtulu",
-      "source_path": "C:\\Users\\thisg\\Desktop\\Reginalds Genocidic Marshmallows\\Marshmallow Chtulu.png",
-      "source_size": 1245863,
-      "source_mtime": 1775189636.9569938,
-      "show_border": true,
-      "depth_front": false
-    },
-    {
-      "node_id": 0,
       "node_type": "warm",
       "title": "Sweet",
       "uuid": "19904115ffac4bfdacf2751a60ac2e52",
@@ -975,6 +954,27 @@
       "label": "And all the actual marshmallows \nHad to start fighting back and \nSent an even bigger army",
       "depth_front": false,
       "node_tint": "#2a3a2f"
+    },
+    {
+      "node_id": 0,
+      "node_type": "image",
+      "title": "Image",
+      "uuid": "bd435922ff7b4566a45d30294b72e11c",
+      "x": 1040.0579778480808,
+      "y": -513.546138866136,
+      "width": 625.9985556075507,
+      "height": 640.8103633779048,
+      "z_value": -9.786000000000119,
+      "ports_visible": false,
+      "shelf_visible": false,
+      "image_b64": "",
+      "cache_key": "c3b35ddb4a6398e25b96bf21f76b8bcaf9d7801342ea66558d63bed073b709c9.png",
+      "caption": "Marshmallow Chtulu",
+      "source_path": "Marshmallow Chtulu.png",
+      "source_size": 1839079,
+      "source_mtime": 1783435511.649518,
+      "show_border": true,
+      "depth_front": false
     },
     {
       "node_id": 0,
@@ -1121,13 +1121,13 @@
     }
   ],
   "viewport": {
-    "camera_x": 160.76730080564118,
-    "camera_y": 1989.9366925488766,
-    "camera_zoom": 0.8496752717465983
+    "camera_x": 969.7405906053657,
+    "camera_y": -667.1385398769644,
+    "camera_zoom": 0.7071994372968194
   },
   "ui_migrations": [
     "image_border_default_on_v1"
   ],
   "last_browse_dirs": {},
-  "checksum": "5a442eca58282296"
+  "checksum": "03a41ad240d8b1d5"
 }
