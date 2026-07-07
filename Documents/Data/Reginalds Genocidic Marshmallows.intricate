@@ -302,8 +302,8 @@
       "uuid": "46ef619ceab84293b6cff271080d9fa7",
       "x": -681.2646341133288,
       "y": 239.2681599679699,
-      "width": 584.5454893564187,
-      "height": 35.87018275788001,
+      "width": 562.3543611910071,
+      "height": 31.64330120256364,
       "z_value": -10.0,
       "ports_visible": false,
       "shelf_visible": false,
@@ -398,7 +398,7 @@
       "source_mtime": 1761485120.9577913,
       "caption": "hugging unit frame_1",
       "volume": 50,
-      "playback_pos": 24224,
+      "playback_pos": 26560,
       "looping": true,
       "muted": false,
       "show_border": false,
@@ -519,7 +519,7 @@
       "source_mtime": 1761291938.0077932,
       "caption": "Finger taps the key 01",
       "volume": 50,
-      "playback_pos": 3253,
+      "playback_pos": 0,
       "looping": true,
       "muted": false,
       "show_border": false,
@@ -581,7 +581,7 @@
       "source_mtime": 1761291939.6412168,
       "caption": "Finger taps the key 02",
       "volume": 50,
-      "playback_pos": 1251,
+      "playback_pos": 3545,
       "looping": true,
       "muted": false,
       "show_border": false,
@@ -971,8 +971,8 @@
       "cache_key": "c3b35ddb4a6398e25b96bf21f76b8bcaf9d7801342ea66558d63bed073b709c9.png",
       "caption": "Marshmallow Chtulu",
       "source_path": "Marshmallow Chtulu.png",
-      "source_size": 1839079,
-      "source_mtime": 1783435511.649518,
+      "source_size": 1839176,
+      "source_mtime": 1783435612.2509146,
       "show_border": true,
       "depth_front": false
     },
@@ -992,8 +992,8 @@
       "cache_key": "8d271cc7e05cb5d7043908e7ece8b5b2f1211873f3e4452c316466c5c31bc22c.png",
       "caption": "Reginald",
       "source_path": "Reginald.png",
-      "source_size": 1146262,
-      "source_mtime": 1783434798.4836495,
+      "source_size": 1146304,
+      "source_mtime": 1783434910.2683184,
       "show_border": true,
       "depth_front": false
     }
@@ -1121,13 +1121,13 @@
     }
   ],
   "viewport": {
-    "camera_x": 969.7405906053657,
-    "camera_y": -667.1385398769644,
-    "camera_zoom": 0.7071994372968194
+    "camera_x": -124.69300588183641,
+    "camera_y": -342.37740598063556,
+    "camera_zoom": 0.9463241275282196
   },
   "ui_migrations": [
     "image_border_default_on_v1"
   ],
   "last_browse_dirs": {},
-  "checksum": "03a41ad240d8b1d5"
+  "checksum": "3f4236fcfa180746"
 }
